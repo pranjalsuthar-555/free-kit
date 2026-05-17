@@ -1,0 +1,911 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;700;800&display=swap');
+
+/* ================================================================
+   CUSTOM PROPERTIES
+   ================================================================ */
+:root {
+  --pink-hot:   #FF69B4;
+  --pink-baby:  #FFB6C1;
+  --pink-light: #FFF0F5;
+  --lavender:   #C8A2C8;
+  --white:      #FFFFFF;
+  --black:      #1a1a1a;
+  --blue-link:  #6699CC;
+
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-body:  'Nunito', sans-serif;
+
+  --shadow-sm:       2px 2px 0px var(--black);
+  --shadow-card:     4px 4px 0px var(--black);
+  --shadow-card-hover: 6px 6px 0px var(--black);
+  --shadow-btn:      4px 4px 0px var(--black);
+  --shadow-btn-hover: 6px 6px 0px var(--black);
+}
+
+/* ================================================================
+   RESET
+   ================================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+/* ================================================================
+   BASE / BODY — pixel grid background
+   ================================================================ */
+body {
+  background-color: var(--pink-light);
+  background-image:
+    linear-gradient(rgba(255, 105, 180, 0.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 105, 180, 0.10) 1px, transparent 1px);
+  background-size: 16px 16px;
+  color: var(--black);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--blue-link);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+button { cursor: pointer; font: inherit; color: inherit; }
+input  { font: inherit; color: inherit; }
+
+/* ================================================================
+   TYPOGRAPHY — pixel headings, rounded body
+   ================================================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-pixel);
+  line-height: 1.8;
+  color: var(--black);
+}
+h1 { font-size: 1rem; }
+h2 { font-size: 0.85rem; }
+h3 { font-size: 0.65rem; }
+
+p, li, span, label, input, textarea, select, button {
+  font-family: var(--font-body);
+}
+
+code {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  background: var(--pink-baby);
+  padding: 2px 6px;
+  border: 1px solid var(--black);
+}
+
+/* ================================================================
+   ANIMATIONS
+   ================================================================ */
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scanline {
+  0%   { background-position: 0 0; }
+  100% { background-position: 0 16px; }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-8px); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.kitty-spin {
+  animation: spin 0.5s ease-in-out;
+}
+
+.kitty-spin-slow {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes drift {
+  from { left: -80px; }
+  to   { left: 100vw; }
+}
+
+/* ================================================================
+   SPEECH BUBBLE (Glasses Kitty tip)
+   ================================================================ */
+.speech-bubble {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  right: 0;
+  width: 174px;
+  background: var(--pink-light);
+  border: 2px solid var(--black);
+  box-shadow: 3px 3px 0px var(--black);
+  padding: 10px 12px;
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  line-height: 1.9;
+  color: var(--black);
+  word-break: break-word;
+  animation: fadeInUp 0.2s ease both;
+}
+
+.speech-bubble::before {
+  /* solid border triangle */
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: 18px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 9px solid var(--black);
+}
+
+.speech-bubble::after {
+  /* white fill triangle (sits 1px above border triangle) */
+  content: '';
+  position: absolute;
+  top: calc(100% - 2px);
+  right: 20px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 7px solid var(--pink-light);
+}
+
+/* blinking cursor helper — add .cursor class to any element */
+.cursor::after {
+  content: '█';
+  color: var(--pink-hot);
+  animation: blink 1s step-start infinite;
+}
+
+.blink {
+  animation: blink 1s step-start infinite;
+}
+
+/* ================================================================
+   LAYOUT
+   ================================================================ */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.toolbar-search {
+  flex: 1;
+  min-width: 220px;
+  max-width: 420px;
+}
+
+/* ================================================================
+   HEADER — Win98 window chrome style
+   ================================================================ */
+.site-header {
+  background: var(--white);
+  border-bottom: 2px solid var(--black);
+  box-shadow: 0 4px 0px var(--black);
+}
+
+.header-titlebar {
+  background: linear-gradient(90deg, var(--pink-hot) 0%, var(--lavender) 100%);
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-titlebar-label {
+  font-family: var(--font-pixel);
+  font-size: 0.45rem;
+  color: var(--white);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+  flex: 1;
+  text-align: center;
+  user-select: none;
+}
+
+.win-btn {
+  width: 14px;
+  height: 12px;
+  border: 2px solid var(--black);
+  font-size: 0.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  user-select: none;
+  flex-shrink: 0;
+  color: var(--black);
+  background: var(--pink-light);
+  font-family: var(--font-pixel);
+}
+
+.win-btn--close { background: #FF5F56; }
+.win-btn--min   { background: #FFBD2E; }
+.win-btn--max   { background: #27C93F; }
+
+.header-body {
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.site-logo {
+  font-family: var(--font-pixel);
+  font-size: 0.85rem;
+  color: var(--pink-hot);
+  text-shadow: 2px 2px 0 var(--lavender);
+}
+
+.site-tagline {
+  font-size: 0.78rem;
+  color: var(--lavender);
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+/* ================================================================
+   WIN98 RESOURCE CARD
+   ================================================================ */
+.win98-card {
+  display: block;
+  background: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-card);
+  border-radius: 0;
+  text-decoration: none;
+  color: var(--black);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  animation: fadeInUp 0.2s ease both;
+}
+
+.win98-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover);
+  text-decoration: none;
+  color: var(--black);
+}
+
+.win98-card:active {
+  transform: translateY(0);
+  box-shadow: 2px 2px 0px var(--black);
+}
+
+.win98-card__titlebar {
+  background: linear-gradient(90deg, var(--pink-hot) 0%, var(--lavender) 100%);
+  padding: 5px 8px;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  border-bottom: 2px solid var(--black);
+}
+
+.win98-card__title {
+  font-family: var(--font-pixel);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--white);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.win98-card__controls {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.win98-card__body {
+  padding: 14px 16px;
+  background: var(--pink-light);
+}
+
+.win98-card__desc {
+  font-size: 0.82rem;
+  color: #555;
+  margin-top: 5px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.win98-card__footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+/* ================================================================
+   CARD META ROW (category + community pick)
+   ================================================================ */
+.card-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+/* ================================================================
+   BADGE — NEW
+   ================================================================ */
+.badge-new {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-family: var(--font-pixel);
+  font-size: 0.38rem;
+  line-height: 1.6;
+  padding: 3px 7px;
+  background: var(--black);
+  color: var(--pink-hot);
+  border: 2px solid var(--pink-hot);
+  box-shadow: 2px 2px 0px var(--pink-hot);
+  white-space: nowrap;
+  flex-shrink: 0;
+  animation: blink 2s step-start infinite;
+}
+
+/* ================================================================
+   BADGE — COMMUNITY PICK
+   ================================================================ */
+.badge-community {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-pixel);
+  font-size: 0.36rem;
+  line-height: 1.6;
+  padding: 3px 8px;
+  background: var(--lavender);
+  color: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-sm);
+  white-space: nowrap;
+}
+
+/* ================================================================
+   CARD ACTION ROW (VISIT button + copy button)
+   ================================================================ */
+.card-action-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.card-visit-btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-pixel);
+  font-size: 0.44rem;
+  line-height: 1.6;
+  padding: 7px 14px;
+  background: var(--pink-hot);
+  color: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.1s;
+  white-space: nowrap;
+}
+
+.card-visit-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--black);
+  text-decoration: none;
+  color: var(--white);
+}
+
+.card-visit-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--black);
+}
+
+/* ================================================================
+   COPY BUTTON + TOOLTIP
+   ================================================================ */
+.card-copy-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.card-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-sm);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s, background 0.1s;
+  flex-shrink: 0;
+}
+
+.card-copy-btn:hover {
+  background: var(--pink-baby);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--black);
+}
+
+.card-copy-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--black);
+}
+
+.card-copy-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-pixel);
+  font-size: 0.38rem;
+  line-height: 1.6;
+  padding: 4px 8px;
+  background: var(--black);
+  color: var(--pink-hot);
+  border: 2px solid var(--pink-hot);
+  box-shadow: 2px 2px 0px var(--pink-hot);
+  white-space: nowrap;
+  pointer-events: none;
+  /* small pixel triangle pointing down */
+  animation: fadeInUp 0.1s ease both;
+}
+
+.card-copy-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--pink-hot);
+}
+
+/* ================================================================
+   BADGES
+   ================================================================ */
+.category-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-sm);
+  background: var(--white);
+  color: var(--black);
+  border-radius: 0;
+  font-family: var(--font-body);
+}
+
+.category-badge__icon {
+  color: var(--pink-hot);
+}
+
+.free-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-pixel);
+  font-size: 0.38rem;
+  padding: 4px 8px;
+  background: var(--pink-hot);
+  color: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-sm);
+  border-radius: 0;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+/* ================================================================
+   SEARCH INPUT
+   ================================================================ */
+.search-wrap {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--lavender);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  background: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: 3px 3px 0px var(--black);
+  padding: 10px 14px 10px 38px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  outline: none;
+  border-radius: 0;
+  transition: box-shadow 0.1s, border-color 0.1s;
+}
+
+.search-input:focus {
+  border-color: var(--pink-hot);
+  box-shadow: 4px 4px 0px var(--pink-hot);
+}
+
+.search-input::placeholder {
+  color: var(--lavender);
+  font-weight: 600;
+}
+
+/* ================================================================
+   CATEGORY FILTER BUTTONS
+   ================================================================ */
+.filter-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.filter-btn {
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 2px solid var(--black);
+  box-shadow: 3px 3px 0px var(--black);
+  background: var(--white);
+  color: var(--black);
+  cursor: pointer;
+  border-radius: 0;
+  transition: transform 0.1s, box-shadow 0.1s, background 0.1s;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-btn:hover {
+  background: var(--pink-baby);
+  transform: translateY(-1px);
+  box-shadow: 4px 4px 0px var(--black);
+}
+
+.filter-btn.active {
+  background: var(--pink-hot);
+  color: var(--white);
+}
+
+.filter-btn.active:hover {
+  background: var(--pink-hot);
+}
+
+.filter-btn__icon {
+  font-style: normal;
+}
+
+/* ================================================================
+   PRIMARY PIXEL BUTTON (Submit / CTA)
+   ================================================================ */
+.pixel-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-family: var(--font-pixel);
+  font-size: 0.48rem;
+  line-height: 1.8;
+  background: var(--pink-hot);
+  color: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-btn);
+  cursor: pointer;
+  border-radius: 0;
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.1s;
+  white-space: nowrap;
+}
+
+.pixel-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-btn-hover);
+  text-decoration: none;
+  color: var(--white);
+}
+
+.pixel-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px var(--black);
+}
+
+.pixel-btn--lavender {
+  background: var(--lavender);
+}
+
+/* ================================================================
+   NEW THIS WEEK STRIP
+   ================================================================ */
+.new-strip {
+  margin-bottom: 32px;
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-card);
+  background: var(--black);
+}
+
+.new-strip__header {
+  padding: 7px 14px;
+  background: var(--black);
+  border-bottom: 2px solid var(--pink-hot);
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  line-height: 1.8;
+  color: var(--pink-hot);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-strip__scroll {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  padding: 14px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--pink-hot) var(--black);
+  background: #111;
+}
+
+.new-strip__scroll::-webkit-scrollbar       { height: 8px; }
+.new-strip__scroll::-webkit-scrollbar-track { background: var(--black); }
+.new-strip__scroll::-webkit-scrollbar-thumb { background: var(--pink-hot); border: 2px solid var(--black); }
+
+.new-strip__card {
+  flex-shrink: 0;
+  width: 210px;
+  display: block;
+  background: var(--white);
+  border: 2px solid var(--black);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: var(--black);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.new-strip__card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+  text-decoration: none;
+  color: var(--black);
+}
+
+.new-strip__card-bar {
+  background: linear-gradient(90deg, var(--pink-hot) 0%, var(--lavender) 100%);
+  padding: 4px 8px;
+  border-bottom: 2px solid var(--black);
+}
+
+.new-strip__card-name {
+  font-family: var(--font-pixel);
+  font-size: 0.38rem;
+  line-height: 1.8;
+  color: var(--white);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.new-strip__card-body {
+  padding: 9px 10px;
+  background: var(--pink-light);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* ================================================================
+   MASONRY GRID — CSS columns (true variable-height masonry)
+   ================================================================ */
+.masonry-grid {
+  columns: 3;
+  column-gap: 20px;
+}
+
+.masonry-grid > * {
+  break-inside: avoid;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* ================================================================
+   EMPTY STATE
+   ================================================================ */
+.empty-state {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.empty-state__title {
+  font-family: var(--font-pixel);
+  font-size: 0.65rem;
+  color: var(--lavender);
+  margin-bottom: 14px;
+  line-height: 2;
+}
+
+.empty-state__sub {
+  font-size: 0.85rem;
+  color: var(--lavender);
+  font-weight: 600;
+}
+
+/* ================================================================
+   FOOTER
+   ================================================================ */
+.site-footer {
+  padding: 16px 24px;
+  border-top: 2px solid var(--black);
+  box-shadow: 0 -3px 0px var(--black);
+  background: var(--white);
+  text-align: center;
+  font-family: var(--font-pixel);
+  font-size: 0.4rem;
+  color: var(--lavender);
+  line-height: 2;
+}
+
+/* ================================================================
+   STICKY SUBMIT BUTTON
+   ================================================================ */
+@keyframes pulse-shadow {
+  0%, 100% { box-shadow: 4px 4px 0px var(--black); }
+  50%       { box-shadow: 4px 4px 0px var(--black), 0 0 0 4px var(--pink-baby); }
+}
+
+.sticky-submit {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 200;
+}
+
+.sticky-submit .pixel-btn {
+  animation: pulse-shadow 2.5s ease-in-out infinite;
+}
+
+.sticky-submit .pixel-btn:hover {
+  animation: none;
+}
+
+/* ================================================================
+   RESPONSIVE BREAKPOINTS
+   ================================================================ */
+
+/* Tablet — 2 columns */
+@media (max-width: 1024px) {
+  .masonry-grid {
+    columns: 2;
+  }
+}
+
+/* Mobile — 1 column */
+@media (max-width: 640px) {
+  .masonry-grid {
+    columns: 1;
+  }
+
+  .main-content {
+    padding: 20px 14px;
+  }
+
+  .header-body {
+    padding: 14px 16px;
+  }
+
+  .site-logo {
+    font-size: 0.65rem;
+  }
+
+  .toolbar-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .toolbar-search {
+    max-width: 100%;
+  }
+
+  .filter-row {
+    gap: 6px;
+  }
+
+  .filter-btn {
+    font-size: 0.72rem;
+    padding: 5px 10px;
+  }
+
+  .sticky-submit {
+    bottom: 14px;
+    right: 14px;
+  }
+
+  .sticky-submit .pixel-btn {
+    font-size: 0.38rem;
+    padding: 9px 14px;
+  }
+
+  .new-strip__card {
+    width: 175px;
+  }
+}
+
+/* ================================================================
+   KITTY — pixel rendering + mix-blend-mode for DOM elements
+   ================================================================ */
+img[src="/kitty.png"] {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.kitty-decoration {
+  mix-blend-mode: multiply;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* ================================================================
+   CUSTOM SCROLLBAR
+   ================================================================ */
+::-webkit-scrollbar       { width: 10px; }
+::-webkit-scrollbar-track { background: var(--pink-light); border-left: 2px solid var(--black); }
+::-webkit-scrollbar-thumb { background: var(--pink-baby); border: 2px solid var(--black); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--pink-hot); }

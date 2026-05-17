@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "open-culture",
+    "name": "Open Culture",
+    "description": "A website that comprehensively collects and curates open resources of all kinds.",
+    "url": "http://openculture.com",
+    "category": "Collections",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "southern-connecticut-state-university",
+    "name": "Southern Connecticut State University",
+    "description": "Free web collections, books, journals, teaching materials, and other resources.",
+    "url": "http://libguides.southernct.edu/openaccess/avimages",
+    "category": "Collections",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "stockio",
+    "name": "Stockio",
+    "description": "A collection of images, vectors, videos, fonts, and icons",
+    "url": "https://www.stockio.com",
+    "category": "Collections",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "ui-goodies",
+    "name": "UI Goodies",
+    "description": "A collection of web development resources for accessibility, animation, audio, color, content, icons, frameworks, patterns, and stock photography.",
+    "url": "http://uigoodies.com",
+    "category": "Collections",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "smithsonian-open-access",
+    "name": "Smithsonian Open Access",
+    "description": "download, share, and reuse millions of the Smithsonian’s images—CC0 licensing. With new platforms and tools, you have easier access to more than 4.4 million 2D and 3D digital items from our collections—with many more to come. This includes images and data from across the Smithsonian’s 19 museums, nine research centers, libraries, archives, and the National Zoo.",
+    "url": "https://www.si.edu/openaccess/",
+    "category": "Collections",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "unblast",
+    "name": "Unblast",
+    "description": "Selective free design resources to download. A growing library of free design resources made by the world's best designers. Unblast selects the best of the best, therefore putting in your hands quality useful resources such as mockups, fonts, templates, icons, graphics and saves you tons of searching hours.",
+    "url": "https://unblast.com",
+    "category": "Collections",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "usgs-fly-over-the-seafloor-of-northern-channel-islands",
+    "name": "USGS Fly Over the Seafloor of Northern Channel Islands",
+    "description": "A virtual “flight” over seafloor features in Southern California as if the water has been drained away. The flight travels around the features Footprint and Piggy Bank, just south of the northern Channel Islands in southern California. USGS researchers with the Pacific Coastal and Marine Science Center used multibeam sonar to map the seafloor as part of the project Seafloor Mapping: Channel Islands - USGS PCMSC. This video was generated from these data, along with surrounding publicly available bathymetric and topographic data.",
+    "url": "https://www.usgs.gov/media/videos/fly-over-seafloor-northern-channel-islands",
+    "category": "Collections",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "cc-search-project",
+    "name": "CC Search Project",
+    "description": "A CC image search",
+    "url": "https://search.creativecommons.org/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "burst",
+    "name": "Burst",
+    "description": "New photos are being added every week. These public domain pictures are free to use for personal or commercial purposes.",
+    "url": "https://burst.shopify.com/photos",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "deposit-photos",
+    "name": "Deposit Photos",
+    "description": "Sends a selection of royalty-free graphics to their email subscribers. The graphics are free for that week only. This means that you can use them any time you want, but they're only free to \"purchase\" that week. The selection includes a stock photo, vector, video and editorial photo. The website also offer a low-cost plan that includes 30 hi-res photos and vectors each month.",
+    "url": "https://depositphotos.com/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "getty-open-content-program",
+    "name": "Getty Open Content Program",
+    "description": "The Getty Museum makes available, without charge, all available digital images to which the Getty holds the rights or that are in the public domain to be used for any purpose. No permission is required.  More info at http://www.getty.edu/about/whatwedo/opencontent.html",
+    "url": "http://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "free-photos",
+    "name": "Free Photos",
+    "description": "A free resource where you can find creative commons photos for your website or print projects.",
+    "url": "https://freephotos.cc/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "map-library-university-of-texas",
+    "name": "Map Library, University of Texas",
+    "description": "The PCL Map Collection includes more than 250,000 maps. Not all are online.",
+    "url": "https://legacy.lib.utexas.edu/maps/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "metropolitan-museum-of-art",
+    "name": "Metropolitan Museum of Art",
+    "description": "Images of artworks that its curators believe to be in the public domain available for unrestricted use (in accordance with the Creative Commons Zero designation).",
+    "url": "https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "mixkit-art-illustration",
+    "name": "MixKit Art & Illustration",
+    "description": "Free for use",
+    "url": "https://mixkit.co/art/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "mockupworld",
+    "name": "MockupWorld",
+    "description": "Free mockups of all sorts",
+    "url": "https://www.mockupworld.co/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "mockuptime",
+    "name": "Mockuptime",
+    "description": "Free computer and mobile device mockups",
+    "url": "https://mockuptime.com/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "moose",
+    "name": "Moose",
+    "description": "Images free to use with a credit link",
+    "url": "https://photos.icons8.com",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "morguefile",
+    "name": "Morguefile",
+    "description": null,
+    "url": "https://morguefile.com",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "nasa",
+    "name": "NASA",
+    "description": "A great resource for imagery related to aeronautics, astrophysics, Earth science, and, of course, spaceflight. Many of the images and most of the videos are in the public domain and therefore OK for commercial use. Do be careful to avoid assets with the NASA logo and astronauts or NASA employees; see the advertising guidelines for more information.",
+    "url": "https://images.nasa.gov/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "national-gallery-of-art",
+    "name": "National Gallery of Art",
+    "description": "Some newer works are still under copyright, the distinction is clear—you can’t download copyrighted images, only those in the public domain.",
+    "url": "https://images.nga.gov/en/page/show_home_page.html",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "negative-space",
+    "name": "Negative Space",
+    "description": "Images shared for use under Creative Commons CC0 licenses",
+    "url": "https://negativespace.co",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "new-york-public-library",
+    "name": "New York Public Library",
+    "description": "The New York Public Library has marked more than 180,000 items—illustrations, maps, photos, ephemera such as menus, manuscripts, and so much more—in its collection as copyright-free and put them online for our use. (It has also created a cool visualization tool that you can use to sort items by genre, century, and color.)",
+    "url": "https://www.nypl.org/research/collections/digital-collections/public-domain",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "noaa",
+    "name": "NOAA",
+    "description": "Most of its 32,000+ images are in the public domain. Visit the “Treasures of the Library\" section for images from rare assets",
+    "url": "http://www.photolib.noaa.gov/index.html",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "old-book-illustrations",
+    "name": "Old Book Illustrations",
+    "description": "This collection focuses on illustrations that are within the limits of the public domain.",
+    "url": "https://www.oldbookillustrations.com/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "open-peeps",
+    "name": "Open Peeps",
+    "description": "Mix and match people - single,  crowds, dial your own groups. CC0",
+    "url": "https://www.openpeeps.com/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "pexels",
+    "name": "Pexels",
+    "description": "A super collection of images",
+    "url": "http://pexels.com",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "pixaby",
+    "name": "Pixaby",
+    "description": "Another really great collectiion of images",
+    "url": "http://pixabay.com",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "publicwork",
+    "name": "Public.Work",
+    "description": "A collection of public domain images",
+    "url": "https://public.work",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "public-domain-image-archive",
+    "name": "Public Domain Image Archive",
+    "description": "A hand-picked highlights from hundreds of galleries, libraries, archives, and museums, the PDIA also functions as a database of images featured in the Public Domain Review",
+    "url": "https://pdimagearchive.org/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "public-domain-review",
+    "name": "Public Domain Review",
+    "description": "The focus is on works which have now fallen into the public domain, that vast commons of out-of-copyright material that everyone is free to enjoy, share, and build upon without restriction.",
+    "url": "http://publicdomainreview.org/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "rawpixel",
+    "name": "RawPixel",
+    "description": "CC0 and other mixed license options",
+    "url": "https://www.rawpixel.com/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "realgraphy",
+    "name": "Realgraphy",
+    "description": "A huge collection of unedited photos. These are great if you're interested in adding your own filters and edits.",
+    "url": "https://realgraphy.org/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "rightlight",
+    "name": "RightLight",
+    "description": "Licence free photos for commercial & personal use.",
+    "url": "http://rightlight.nordwoodthemes.com/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "rijks-museum-rijksstudio",
+    "name": "Rijks Museum, Rijksstudio",
+    "description": "In late 2012, the museum began a bold experiment by not only making it possible to download high-quality files of its collection, but by actively encouraging people to do so. Most of the collection is no longer under copyright, but if you stumble across the odd outlier, you’ll see a “not available to download” message.",
+    "url": "https://www.rijksmuseum.nl/en/rijksstudio",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "skuawk",
+    "name": "Skuawk",
+    "description": "Public Domain photos",
+    "url": "http://skuawk.com",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "spacex-photos-on-flickr",
+    "name": "SpaceX Photos on Flickr",
+    "description": "Official Flickr account for SpaceX, the future of space travel. These official SpaceX images are being made available to the public and news media with no restrictions.",
+    "url": "https://www.flickr.com/photos/spacex/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "stocksnapio",
+    "name": "Stocksnap.io",
+    "description": null,
+    "url": "https://stocksnap.io/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "stockvault",
+    "name": "StockVault",
+    "description": "Images, clipart and more",
+    "url": "https://www.stockvault.net/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "the-british-library-image-gallery",
+    "name": "The British Library Image Gallery",
+    "description": "The British Library’s collections on Flickr Commons offer access to millions of public domain images, which they encourage you to explore and re-use.",
+    "url": "https://www.flickr.com/photos/britishlibrary",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "viintage",
+    "name": "Viintage",
+    "description": "Copyright-free vintage graphics",
+    "url": "http://viintage.com/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "walters-art-museum",
+    "name": "Walters Art Museum",
+    "description": "There are several ways to browse the collection (by category, place, medium, and more). You can save what you like in collections or download as you go. The museum has assigned the Creative Commons Zero: No Rights Reserved license to all of these images, which allows you to copy, modify, and distribute them, even for commercial purposes.",
+    "url": "http://art.thewalters.org/",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "the-art-institute-of-chicago",
+    "name": "The Art Institute of Chicago",
+    "description": "Explore thousands of artworks in the museum’s wide-ranging collection—from our world-renowned icons to lesser-known gems from every corner of the globe—as well as our books, writings, reference materials, and other resources.",
+    "url": "https://www.artic.edu/collection?is_public_domain=1",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash",
+    "description": null,
+    "url": "http://unsplash.com",
+    "category": "Images",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "allvectorscom",
+    "name": "Allvectors.com",
+    "description": "Most of vector art published on this website is free to use for both personal and commercial purposes. Vector files are usually saved in .EPS (encapsulated post script) or .AI (Adobe Illustrator) formats.",
+    "url": "http://allvectors.com",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "drawkit",
+    "name": "DrawKit",
+    "description": "DrawKit is a collection of free, beautiful, customisable MIT licensed SVG illustrations in two styles, to use on your next website, app, or project.",
+    "url": "https://www.drawkit.io",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "flat-icons",
+    "name": "Flat Icons",
+    "description": "The largest database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.",
+    "url": "https://www.flaticon.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "free-vector-maps",
+    "name": "Free Vector Maps",
+    "description": "Free Vector Maps is a Ted Grajeda project created to provide the design world with a highly detailed, easily customisable and consistent library of stock maps for free* and premium maps and icons at great prices.",
+    "url": "https://freevectormaps.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "freevectorsnet",
+    "name": "FreeVectors.net",
+    "description": "All the images on this site are free to use for personal use and most of them can be used commercially.",
+    "url": "http://freevectors.net",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "humaaans",
+    "name": "humaaans",
+    "description": "Mix-&-match illustrations of people with a design library. Free for commercial or personal use by Pablo Stanley",
+    "url": "https://www.humaaans.com",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "icon-monstr",
+    "name": "Icon Monstr",
+    "description": "Use the icons for free, regardless of whether for commercial or non-commercial purposes.",
+    "url": "https://iconmonstr.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "icons8-ouch",
+    "name": "Icons8 Ouch",
+    "description": "Ouch.pics is a project of Icons8 dedicated to free vector illustrations for user interface. They would give a clean, trendy look to your designs. Alongside with stock photos, free icon packs, and free music, we are determined to build a design platform and change the way people create things.",
+    "url": "https://icons8.com",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "ikonate",
+    "name": "Ikonate",
+    "description": "Fully customisable and accessible vector icons",
+    "url": "https://www.ikonate.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "ira-design",
+    "name": "Ira Design",
+    "description": "Build your own amazing illustrations\nUsing our awesome gradients and hand drawn sketch components.",
+    "url": "https://iradesign.io",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "isoflat",
+    "name": "IsoFlat",
+    "description": "A collection of free isometric vectors",
+    "url": "https://isoflat.com",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "isometric",
+    "name": "Isometric",
+    "description": "Free isometric illustrations for designers, startups, and companies",
+    "url": "https://isometric.online/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "library-of-ambisonic-sound",
+    "name": "Library of Ambisonic Sound",
+    "description": "The largest collection of Ambisonic recordings",
+    "url": "https://library.soundfield.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "manypixels",
+    "name": "ManyPixels",
+    "description": "Each week, discover royalty-free illustrations to power up your projects. Use them in a commercial or non-commercial way for your landing pages, blog posts, email newsletters, social media graphics and more! Our License",
+    "url": "https://gallery.manypixels.co",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "mixkit",
+    "name": "MixKit",
+    "description": "Free HD videos and static illustration",
+    "url": "https://mixkit.co/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "open-clip-art",
+    "name": "Open Clip Art",
+    "description": "Vector graphics available under Creative Commons Zero 1.0 License.",
+    "url": "http://openclipart.org",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "public-domain-vectors",
+    "name": "Public Domain Vectors",
+    "description": "Copyright-free vector images in popular .eps, .svg, .ai and .cdr formats.To the extent possible under law, uploaders on this site have waived all copyright to their vector images.",
+    "url": "https://publicdomainvectors.org",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "stockvault-2",
+    "name": "StockVault",
+    "description": "Their sole purpose is to collect and archive high resolution photographs that photographers, designers and students can share and use for their personal and non-commercial design projects.",
+    "url": "http://www.stockvault.net/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "stockio-2",
+    "name": "Stockio",
+    "description": "Free Photos, Vectors, Icons, Fonts and Videos\nThousands of files for personal and commercial use",
+    "url": "https://www.stockio.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "undrawco",
+    "name": "UnDraw.co",
+    "description": "A constantly updated collection of beautiful svg images that you can use completely free and without attribution.",
+    "url": "https://undraw.co/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "vector-open-stock",
+    "name": "Vector Open Stock",
+    "description": "Search and filter by file type such as PSD mockups, vectors graphics, Transparent PNGs.",
+    "url": "http://www.vectoropenstock.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "vexels",
+    "name": "Vexels",
+    "description": "Vector designs available for use. Licenses vary by creator.",
+    "url": "https://www.vexels.com/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "woobro",
+    "name": "WooBro",
+    "description": "Download Illustrations in SVG, SKETCH, AI and PNG formats.",
+    "url": "https://woobro.design/",
+    "category": "Vector",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "audio-on-archiveorg",
+    "name": "Audio on Archive.org",
+    "description": "Contains recordings ranging from alternative news programming, to concerts, to Old Time Radio shows, to book and poetry readings, to original music uploaded by users. Many of these audios and MP3s are available for free download.",
+    "url": "https://archive.org/details/audio",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "bbc-sound-effects",
+    "name": "BBC Sound Effects",
+    "description": "These 16,016 BBC Sound Effects are made available by the BBC in WAV format to download for use under the terms of the RemArc Licence. The Sound Effects are BBC copyright, but they may be used for personal, educational or research purposes, as detailed in the license. Read and understand the RemArc license before using this audio.",
+    "url": "http://bbcsfx.acropolis.org.uk/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "ccmixter",
+    "name": "ccMixter",
+    "description": "While ccMixter has no problems with quantity, it does have some issues with the quality of the files uploaded. Not everyone has the latest tools, inspiration or skills to produce high-quality music, so you’ll spend some time here to find a suitable track.\n\nThe entire ccMixter sound collection is available under an attribution license. As long as you give credit to the artist, you’re free to use it for whatever project you have in mind.",
+    "url": "http://dig.ccmixter.org/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "free-music-archive",
+    "name": "Free Music Archive",
+    "description": "The Free Music Archive is an interactive library of high-quality, legal audio downloads. Unlike other websites, uploading content is granted only on an invitation basis and all audio files are hand-picked by one of the project’s curators.",
+    "url": "http://freemusicarchive.org/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "freesound",
+    "name": "FreeSound",
+    "description": "Freesound aims to create a huge collaborative database of audio snippets, samples, recordings, bleeps, ... released under Creative Commons licenses that allow their reuse.",
+    "url": "https://freesound.org",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "fugue",
+    "name": "Fugue",
+    "description": "Quality tracks free to use for a credit link.",
+    "url": "https://icons8.com/music/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "jamendo",
+    "name": "Jamendo",
+    "description": "Creative Commons-licensed audio. Not everything is free to use. Mind the licenses.",
+    "url": "https://www.jamendo.com/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "jason-mccoys-list",
+    "name": "Jason McCoy's List",
+    "description": null,
+    "url": "https://mccoyproductions.net/free-music-for-videos/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "macaulay-library-cornell-university",
+    "name": "Macaulay Library, Cornell University",
+    "description": "There are bird calls available in this library that can be requested for use in educational contexts with attribution, but no fees.",
+    "url": "https://www.macaulaylibrary.org/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "musopen",
+    "name": "Musopen",
+    "description": "a non-profit website that hosts music recordings, music sheets, sounds, apps and even educational materials without copyright restrictions. Musopen is on a mission to offer free music to anyone. Unlike other websites, Musopen is focused on classical instrumental music and covers various musical themes such as Baroque, Classical, Medieval or Renaissance.",
+    "url": "https://musopen.org/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "unminus",
+    "name": "Unminus",
+    "description": "Like Unsplash, but for music.",
+    "url": "https://www.unminus.com/",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "world-library-audio",
+    "name": "World Library Audio",
+    "description": "Audiobook collection - The World Library Foundation is the world's largest collection of Books and Articles in electronic format. Founded in 1996, the World Library Foundation is a global coordinated effort to preserve and disseminate digital facsimiles of historical books, classic works of literature, serials, bibliographies, dictionaries, encyclopedias, and other heritage works in a number of languages and countries around the world.",
+    "url": "http://worldlibrary.net/collectionCatalog.aspx?CatalogId=7",
+    "category": "Audio",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "coverr",
+    "name": "Coverr",
+    "description": "Public domain video for  use as backgrounds on websites",
+    "url": "http://www.coverr.co/",
+    "category": "Video",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "mazwai",
+    "name": "Mazwai",
+    "description": "A collection of user-contributed video. Licenses vary by video createor.",
+    "url": "http://mazwai.com",
+    "category": "Video",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "mixkit-2",
+    "name": "Mixkit",
+    "description": "The Mixkit License allows you to use any of our Items in your commercial and non-commercial projects, for free.\n\nYou’re permitted to download, copy, modify, distribute, publicly perform and broadcast the Items. Your rights are non-exclusive, worldwide, sub-licensable and revocable. Attribution is not required, however, we would appreciate if you credit Mixkit where reasonably possible.",
+    "url": "https://mixkit.co",
+    "category": "Video",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "movies-on-archiveorg",
+    "name": "Movies on Archive.org",
+    "description": "This library contains digital movies uploaded by Archive users which range from classic full-length films, to daily alternative news broadcasts, to cartoons and concerts. Many of these videos are available for free download.",
+    "url": "https://archive.org/details/movies",
+    "category": "Video",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "videezy",
+    "name": "Videezy",
+    "description": "Free HD stock Footage and 4K videos",
+    "url": "https://www.videezy.com/",
+    "category": "Video",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "videvo",
+    "name": "Videvo",
+    "description": "Completely free HD stock footage and motion graphics for any project!",
+    "url": "https://www.videvo.net/",
+    "category": "Video",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "open-foundry",
+    "name": "Open Foundry",
+    "description": "Open Foundry is an amazing platform that holds a rich collection of open-source fonts. Have fun exploring their collection of typefaces and toggling with their different display options. You can experiment with kerning, sizing, backgrounds, and more straight from Open Foundry’s interface",
+    "url": "https://open-foundry.com",
+    "category": "Fonts",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "the-league-of-movable-type",
+    "name": "The League of Movable Type",
+    "description": "The League of Moveable Type declares on their homepage, their manifesto is all about raising the design standards of the web and empowering everyone with top-notch typography. They proudly offer a handful of high-quality open-sourced typefaces on their website.",
+    "url": "https://www.theleagueofmoveabletype.com/",
+    "category": "Fonts",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "lost-type-co-op",
+    "name": "Lost Type Co-Op",
+    "description": "Lost Type is the very first “Pay-What-You-Want” type foundry founded back in 2011. Whatever funds are collected go directly to the font’s respective designers. It’s a win-win! Check out their awesome catalog of over 50 unique typefaces.",
+    "url": "http://www.losttype.com/",
+    "category": "Fonts",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "myfonts-free-fonts",
+    "name": "MyFonts - Free Fonts",
+    "description": "Did you know you can filter through free typefaces on the world’s largest collection of fonts? That’s right—MyFonts.com offers a variety of free fonts",
+    "url": "https://www.myfonts.com/search//free/",
+    "category": "Fonts",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "font-squirrel",
+    "name": "Font Squirrel",
+    "description": "The self-proclaimed “free font utopia” Font Squirrel is a great resource if you’re specifically looking for fonts that are free for commercial use. They’ve done the heavy work for you by researching licenses and carefully hand-picking every font displayed on their site.",
+    "url": "https://www.fontsquirrel.com/",
+    "category": "Fonts",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "awwwards-free-font-collection",
+    "name": "Awwwards Free Font Collection",
+    "description": "Awwwards generously put together a collection of free fonts from designers all around the web. Although not all are free for commercial use, with the vast array of styles available, you should be able to find just what you’re looking for.",
+    "url": "https://www.awwwards.com/awwwards/collections/free-fonts/",
+    "category": "Fonts",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "google-fonts",
+    "name": "Google Fonts",
+    "description": "With nearly 1000 fonts available in more than 135 languages, Google Fonts remains a go-to resource for designers, type lovers, and just about anyone who wants to download typefaces for both personal and commercial use.",
+    "url": "https://fonts.google.com/",
+    "category": "Fonts",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "freebiesbug",
+    "name": "FreebiesBug",
+    "description": "A huge and ever-growing selection of 1850+ Free Design Resources created by top designers and developers. Choose from an extensive selection of fonts, graphic and HTML website templates, icons, mockups, and much more!",
+    "url": "https://freebiesbug.com/",
+    "category": "Templates",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "slidescarnival",
+    "name": "SlidesCarnival",
+    "description": "A collection of free presentation templaces for Google Slides, PowerPoint, and Canva",
+    "url": "https://slidescarnival.com",
+    "category": "Templates",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos",
+    "description": "A curated visual reference tool for creative directors and designers. Organize and discover visual inspiration.",
+    "url": "https://www.cosmos.so",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "godly",
+    "name": "Godly",
+    "description": "A showcase of the most beautiful websites on the internet, curated for creative inspiration.",
+    "url": "https://godly.website",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "notfolio",
+    "name": "노트폴리오 (Notfolio)",
+    "description": "Korean-based creative portfolio platform featuring design, photography, and art work. Free to browse.",
+    "url": "https://notefolio.net",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "visual-journal",
+    "name": "Visual Journal",
+    "description": "A curated collection of visual references and creative inspiration for designers and art directors.",
+    "url": "https://www.visualjournal.it",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "ai-index",
+    "name": "AI INDEX",
+    "description": "A curated index of AI-generated art and design references for creative professionals.",
+    "url": "https://aiindex.art",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "filmgrab",
+    "name": "[FILMGRAB]",
+    "description": "A film stills reference database. Browse and search frames from thousands of films for visual reference.",
+    "url": "https://film-grab.com",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "shotdeck",
+    "name": "SHOTDECK",
+    "description": "The world's largest searchable film image library. Millions of high-quality images from Hollywood films for creative reference.",
+    "url": "https://shotdeck.com",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "visual-reference-search",
+    "name": "Visual Reference Search",
+    "description": "Search engine specifically built for finding visual references across the web for creative work.",
+    "url": "https://visualreference.io",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "flim",
+    "name": "Flim",
+    "description": "AI-powered film reference tool. Search millions of movie stills by mood, color, composition.",
+    "url": "https://www.flim.ai",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "shotcafe",
+    "name": "SHOT.CAFE",
+    "description": "A curated library of movie screenshots and visual references organized for creative directors and filmmakers.",
+    "url": "https://shot.cafe",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "arena",
+    "name": "Are.na",
+    "description": "A platform for saving and organizing images, links, and text into visual research boards. Free tier available.",
+    "url": "https://www.are.na",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "ba-represents",
+    "name": "B&A Represents",
+    "description": "Represents photographers and directors. Public portfolio archive is a rich reference for commercial photography.",
+    "url": "https://barepresents.com",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "art-commerce",
+    "name": "Art + Commerce",
+    "description": "Talent agency representing photographers and directors. Public portfolios serve as top-tier visual reference.",
+    "url": "https://artandcommerce.com",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "dave-dye",
+    "name": "Dave Dye",
+    "description": "Blog by creative director Dave Dye archiving great advertising work from history. Free reference resource.",
+    "url": "https://davedye.com",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "the-toolbox",
+    "name": "The Toolbox",
+    "description": "A curated resource hub for creative professionals including tools, references, and inspiration.",
+    "url": "https://www.thetoolbox.cc",
+    "category": "Visual Reference & Inspiration",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "checklist-design",
+    "name": "Checklist Design",
+    "description": "A collection of the best UX and UI practices for product designers. Free reference resource.",
+    "url": "https://www.checklist.design",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "mobbin",
+    "name": "Mobbin",
+    "description": "Library of mobile UI patterns and flows. Free plan available. Great for UI reference and inspiration.",
+    "url": "https://mobbin.com",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "dribbble",
+    "name": "Dribbble",
+    "description": "Design inspiration platform. Browse free work from designers worldwide.",
+    "url": "https://dribbble.com",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "behance",
+    "name": "Behance",
+    "description": "Adobe's platform for creative professionals to showcase and discover work. Free to browse.",
+    "url": "https://www.behance.net",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "land-book",
+    "name": "Land-book",
+    "description": "Curated gallery of beautiful landing page designs. Free to browse for web design reference.",
+    "url": "https://land-book.com",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "lapa-ninja",
+    "name": "Lapa Ninja",
+    "description": "Free library of landing page designs for inspiration. Searchable by category.",
+    "url": "https://www.lapa.ninja",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "siteinspire",
+    "name": "Siteinspire",
+    "description": "Curated showcase of web design and typography. High quality visual reference for digital creatives.",
+    "url": "https://www.siteinspire.com",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "collectui",
+    "name": "CollectUI",
+    "description": "Daily UI design inspiration collected from Dribbble. Organized by UI component. Free.",
+    "url": "https://collectui.com",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "ui-patterns",
+    "name": "UI Patterns",
+    "description": "Documentation of design patterns with real-world examples. Free reference for UX/UI professionals.",
+    "url": "https://ui-patterns.com",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "typewolf",
+    "name": "Typewolf",
+    "description": "Helps designers choose the right font pairings for projects. Free font combination reference.",
+    "url": "https://www.typewolf.com",
+    "category": "Design Tools & References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "coolors",
+    "name": "Coolors",
+    "description": "Fast color palette generator. Free to use. Generate, explore, and export beautiful color palettes.",
+    "url": "https://coolors.co",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "adobe-color",
+    "name": "Adobe Color",
+    "description": "Free color wheel and palette tool from Adobe. Extract themes from images and create harmonious palettes.",
+    "url": "https://color.adobe.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "colour-lovers",
+    "name": "Colour Lovers",
+    "description": "Community platform for sharing and discovering beautiful color palettes and patterns. Free.",
+    "url": "https://www.colourlovers.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "the-noun-project",
+    "name": "The Noun Project",
+    "description": "Huge library of icons and photos. Free plan available with attribution.",
+    "url": "https://thenounproject.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "reshot",
+    "name": "Reshot",
+    "description": "Free curated collection of handpicked stock photos with no attribution required.",
+    "url": "https://www.reshot.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "life-of-pix",
+    "name": "Life of Pix",
+    "description": "Free high resolution photography. No attribution required, no copyright restrictions.",
+    "url": "https://www.lifeofpix.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "gratisography",
+    "name": "Gratisography",
+    "description": "Free high-resolution pictures you can use on your personal and commercial projects.",
+    "url": "https://gratisography.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "stocksnapio-2",
+    "name": "StockSnap.io",
+    "description": "Hundreds of high resolution images added weekly. All free from copyright restrictions.",
+    "url": "https://stocksnap.io",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "picjumbo",
+    "name": "Picjumbo",
+    "description": "Totally free photos for commercial and personal projects. No attribution needed.",
+    "url": "https://picjumbo.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "kaboom-pics",
+    "name": "Kaboom Pics",
+    "description": "Free stock photography with a color palette generator for each image.",
+    "url": "https://kaboompics.com",
+    "category": "Color & Photography References",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "canva-free",
+    "name": "Canva Free",
+    "description": "Free graphic design platform with thousands of templates for social media, presentations, and print.",
+    "url": "https://www.canva.com",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "adobe-express",
+    "name": "Adobe Express",
+    "description": "Free online design tool by Adobe. Create social media graphics, flyers, and more.",
+    "url": "https://www.adobe.com/express",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "figma-free-plan",
+    "name": "Figma (Free Plan)",
+    "description": "Collaborative design tool with a generous free plan. Industry standard for UI/UX and visual design.",
+    "url": "https://www.figma.com",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "canva-color-palette-generator",
+    "name": "Canva Color Palette Generator",
+    "description": "Upload any image and generate a color palette from it. Free.",
+    "url": "https://www.canva.com/colors/color-palette-generator",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "removebg",
+    "name": "Remove.bg",
+    "description": "Free background removal for images. AI-powered, fast, and easy to use.",
+    "url": "https://www.remove.bg",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "cleanuppictures",
+    "name": "Cleanup.pictures",
+    "description": "Free AI-powered tool to remove objects, people, or text from photos.",
+    "url": "https://cleanup.pictures",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "unscreen",
+    "name": "Unscreen",
+    "description": "Remove the background from videos for free. No green screen needed.",
+    "url": "https://www.unscreen.com",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "kapwing",
+    "name": "Kapwing",
+    "description": "Free online video editor with templates, subtitles, and collaboration features.",
+    "url": "https://www.kapwing.com",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "davinci-resolve-free",
+    "name": "DaVinci Resolve (Free)",
+    "description": "Professional-grade video editing and color grading software. Completely free version available.",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "screentogif",
+    "name": "ScreenToGif",
+    "description": "Free, open source screen recorder that can export as GIF, video, or images.",
+    "url": "https://www.screentogif.com",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "squoosh",
+    "name": "Squoosh",
+    "description": "Free image compression tool by Google. Compress images without losing quality.",
+    "url": "https://squoosh.app",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "tinypng",
+    "name": "TinyPNG",
+    "description": "Smart PNG and JPEG compression. Free for up to 20 images/month.",
+    "url": "https://tinypng.com",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "lottie-files",
+    "name": "Lottie Files",
+    "description": "Free library of animated illustrations and icons in lightweight JSON format.",
+    "url": "https://lottiefiles.com",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "rive",
+    "name": "Rive",
+    "description": "Design and ship interactive animations for apps and the web. Free tier available.",
+    "url": "https://rive.app",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  },
+  {
+    "id": "spline",
+    "name": "Spline",
+    "description": "3D design tool for creating interactive 3D content. Free plan available.",
+    "url": "https://spline.design",
+    "category": "Creative Professional Tools",
+    "isNew": false,
+    "isCommunityPick": false,
+    "addedDate": "2026-05-17"
+  }
+]
