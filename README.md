@@ -157,19 +157,9 @@ This is a community project. Ways to help:
 
 ---
 
-## 📌 Roadmap
-
-- [ ] Airtable backend for community submissions
-- [ ] Filter by license type (CC0, attribution, commercial)
-- [ ] Dark mode toggle
-- [ ] Resource rating system
-- [ ] Weekly email digest
-
----
-
 ## 👾 Made By
 
-Built by **Ayumu** as a portfolio project.
+Built by **Pranjal** as a portfolio project.
 
 Designed for creative professionals who are tired of 
 Googling the same 10 free resource sites over and over.
