@@ -6,7 +6,7 @@
 
 70+ genuinely free design resources — stock photos, fonts, tools, templates, colour palettes, references — in one searchable directory. Community-sourced. No paywalls, no credit card walls, no surprises.
 
-🌐 **Live:** [free-kit-project.vercel.app](https://free-kit-project.vercel.app)
+🌐 **Live:** [free-kit-project.vercel.app](https://free-kit-lime.vercel.app/)
 
 ---
 
